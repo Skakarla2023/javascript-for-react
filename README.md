@@ -3,7 +3,7 @@
 - This repository covers all the essential JavaScript topics that one should know before getting into web development.
 - It starts from core fundamentals like `variables` and `datatypes` and gradually moves to important concepts like `functions`, `async JavaScript`, and patterns commonly used in React.
 
----
+
 
 ## Why I built this repo
 
@@ -11,7 +11,7 @@
 - Instead of learning from multiple unstructured and unreliable sources, this repository offers a clean learning path with examples.
 - By the time you finish this repository, you will be confident in JavaScript fundamentals and well-prepared to move into frameworks like **React**.
 
----
+
 
 ## Who is this for?
 
@@ -19,7 +19,7 @@
 - Developers preparing for React
 - Anyone revising JavaScript fundamentals for interviews
 
----
+
 
 ## Repository Structure
 
