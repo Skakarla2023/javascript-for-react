@@ -58,23 +58,36 @@ javascript-for-react/
 │   ├── immutability.js
 │   └── notes.md
 │
-├── 09-async-javascript/
+├── 09-this-and-binding/
+│   ├── this-keyword.js
+│   └── notes.md
+│
+├── 10-closures/
+│   ├── closures.js
+│   └── notes.md
+│
+├── 11-async-javascript/
 │   ├── async.js
 │   └── notes.md
 │
-├── 10-promises-and-fetch/
+├── 12-promises-and-fetch/
 │   ├── promises.js
 │   └── notes.md
 │
-├── 11-modules-and-import-export/
+├── 13-event-loop/
+│   ├── event-loop.js
+│   └── notes.md
+│
+├── 14-modules-and-import-export/
 │   ├── modules.js
 │   └── notes.md
 │
-├── 12-js-patterns-used-in-react/
+├── 15-js-patterns-used-in-react/
 │   ├── patterns.js
 │   └── notes.md
 │
 ├── README.md
+
 ```
 
 ## Tect Stack
