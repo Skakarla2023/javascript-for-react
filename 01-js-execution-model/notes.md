@@ -34,7 +34,7 @@ All these depend on **Execution Context** to work correctly.
 
 ### How Execution Context works?
 
-- It is creayed in two phases:
+- It is created in two phases:
 
 1. In creation phase:
   - JavaScript scans the code before running it.
