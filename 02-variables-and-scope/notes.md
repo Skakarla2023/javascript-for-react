@@ -99,7 +99,7 @@ console.log(b); // Error: b is not defined
     if (true) {
       let y = 10; // let is block-scoped
     }
-    console.log("let y =", y); // ❌ Error: y is not defined
+    console.log("let y =", y); 
   }
 
   testLet();
@@ -125,7 +125,7 @@ console.log(b); // Error: b is not defined
     if (true) {
       const z = 20; // const is block-scoped
     }
-    console.log("const z =", z); // ❌ Error: z is not defined
+    console.log("const z =", z); 
   }
 
   testConst();
@@ -136,10 +136,12 @@ console.log(b); // Error: b is not defined
 
 ```
 
-
 | Keyword   | Scope Type     | Meaning                                                                  |
 | --------- | -------------- | ------------------------------------------------------------------------ |
 | **var**   | Function Scope | Exists anywhere inside the function it was declared in (ignores blocks). |
 | **let**   | Block Scope    | Exists ONLY inside `{ }` where it is declared.                           |
 | **const** | Block Scope    | Same as `let`, stays inside `{ }`.                                       |
 
+
+-  Another important concept related to variables and scope is **hoisting**.
+-  
