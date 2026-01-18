@@ -161,3 +161,6 @@ console.log(b); // Error: b is not defined
 | Predictability                | Low               | High            | Very High              |
 | Preferred in modern JS        | No              |  Yes           |  Yes                  |
 | Typical usage                 | Legacy code       | Changing values | Constants & references |
+
+
+**TDZ** : TDZ stands for Temporal dead zone, it is a behavior that applies to variables declared with `let` and `const`. It is the period between entering a variable's scope and the moment its declaration line is executed and the variable is initialized.
