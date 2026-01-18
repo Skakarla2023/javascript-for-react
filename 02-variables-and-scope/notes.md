@@ -144,4 +144,20 @@ console.log(b); // Error: b is not defined
 
 
 -  Another important concept related to variables and scope is **hoisting**.
--  
+
+### Differences between var,let and const
+
+| Feature                       | `var`             | `let`           | `const`                |
+| ----------------------------- | ----------------- | --------------- | ---------------------- |
+| Introduced in                 | ES5 (old)         | ES6 (2015)      | ES6 (2015)             |
+| Scope                         | Function-scoped   | Block-scoped    | Block-scoped           |
+| Accessible before declaration | Yes (`undefined`) | No (TDZ error)  | No (TDZ error)         |
+| Hoisted                       | Yes               | Yes (TDZ)       | Yes (TDZ)              |
+| Re-declaration in same scope  | Allowed         |  Not allowed   |  Not allowed          |
+| Re-assignment                 | Allowed         |  Allowed       |  Not allowed          |
+| Must be initialized           | No              |  No            |  Yes                  |
+| Global object binding         | Yes (`window`)    | No              | No                     |
+| Safe to use in loops          | No              |  Yes           |  Yes                  |
+| Predictability                | Low               | High            | Very High              |
+| Preferred in modern JS        | No              |  Yes           |  Yes                  |
+| Typical usage                 | Legacy code       | Changing values | Constants & references |
